@@ -1,22 +1,46 @@
 {
-    "records": [
-        {
-            "attributes": {
-                "type": "test",
-                "url": "www.google.com"
-            },
-            "code": "abc",
-            "key": "xxxxxxxx",
-            "Id": "xxxxxxxxxxxxxxxx"
+    "customer": {
+        "id": 281,
+        "groupId": 0,
+        "defaultBilling": "58",
+        "defaultShipping": "58",
+        "createdAt": "2020-05-12 09:49:18",
+        "updatedAt": "2020-05-13 06:17:58",
+        "createdIn": "Default Store View",
+        "email": "qqnshcifhudijxf2o@ttirv.com",
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "storeId": 1,
+        "websiteId": 1,
+        "addresses": [
+            {
+                "defaultShipping": true,
+                "defaultBilling": true,
+                "firstName": "Jane",
+                "lastName": "Doe",
+                "region": {
+                    "regionCode": "NY",
+                    "region": "New York",
+                    "regionId": 43
+                },
+                "postcode": "10755",
+                "street": [
+                    "123 Oak Ave"
+                ],
+                "city": "Purchase",
+                "telephone": "512-555-1111",
+                "countryId": "US"
+            }
+        ],
+        "disableAutoGroupChange": 0,
+        "extensionAttributes": {
+            "isSubscribed": false
         },
-        {
-            "attributes": {
-                "type": "test",
-                "url": "www.google.com"
-            },
-            "code": "xyz",
-            "key": "xxxxxxxxxxxxxxxxxxxxxxx",
-            "Id": "xxxxxxxxxxxxxxxxxxxx"
-        }
-    ]
+        "customAttributes": [
+            {
+                "attributeCode": "phone",
+                "value": "Phone"
+            }
+        ]
+    }
 }
